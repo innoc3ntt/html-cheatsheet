@@ -1,0 +1,89 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #000;
+  }
+
+  th {
+      background-color: darkblue;
+      color: white;
+      font-weight: bolder;
+      font-size: large;
+  }
+
+  td {
+      font-size: medium;
+  }
+
+  body {
+      background-image: url("./Resources/bg-image.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 70%;
+      float: left;
+      margin: 1.5%;
+}
+
+p footer {
+    font-size: small;
+    color: gray;
+    opacity: 0.75;
+}
+
+h1 {
+    font-size: 100px;
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:midnightblue;
+}
+
+footer {
+    background-color: darkslategrey;
+    opacity: 0.75;
+    color: white;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    opacity: 0.5;
+    color: black;
+    font-weight: bold;
+}
+
+ul li {
+    list-style:lower-alpha
+}
+
+aside {
+    float: right;
+    background-color: lightgray;
+    margin: 5%;
+    width: 30%;
+    opacity: 0.75;
+    padding: 5px;
+    padding-left:15px;
+}
+
+a {
+    color:olivedrab;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a:hover {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+a:active {
+    color:red;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link href="styles.css" rel="stylesheet"/>
+        <title>HTML & CSS Cheatsheet</title>
+
+        <h1>HTML & CSS Cheatsheet</h1>
+    </header>
+
+    <body>
+        <aside>
+            <h3>Links to resources</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://stackoverflow.com/" target="_blank">stackoverflow</a></li>
+            </ul>
+        </aside>
+        <section class='tables'>
+            <h2>Tables in HTML</h2>
+            <table style>
+                <tr>
+                    <th>Tag</th>
+                    <th>Usage</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>to initialise a table</td>
+                    <td>&lttable&gt&lt/table&gt</td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>Add in a table row</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>td</td>
+                    <td>add in table data</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>th</td>
+                    <td>table heading</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>colspan</td>
+                    <td>make a column span more than one column</td>
+                    <td>&ltcol span="2"&gt</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class='selectors'>
+            <h2>CSS Selectors</h2>
+
+            <p>There are three main ways to use selectors in CSS 
+                <ol>
+                    <li>Attribute</li>
+                    <li>ID</li>
+                    <li>Class</li>
+                </ol>
+            </p>
+
+            <h3> By attribute:</h3>
+            <p>The attribute selector follows the Attribute[value] format and looks for attributes with matching values to add to the style, an example is a[target="blank"] which will change any links to the specified styles.</p>
+
+            <h3>By ID: </h3>
+            <p>ID is one of the most specific ways to use CSS and can be called up using #. For example, a div, section, or header element can be given an ID as so. &ltdiv id="introduction"&gt tag and can be called up in css using: <br><br>
+                <span class="example">
+                #introduction { <br>
+                &emsp; font-family: Helvetica;<br>
+                }
+                </span>
+            </p>
+
+            <h3>By class:</h3>
+            <p>A class can be specified by appending class to the div, section, or other element as such: <br>
+                <span id="example">&ltsection class="introduction"&gt</span><br>
+            </p>
+        </section>
+
+
+    </body>
+
+
+    <footer>
+        <p> Written by Timothy Tan on 24.05.2021</p>
+    </footer>
+</html>
